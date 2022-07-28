@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google-fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,500&display=swap" rel="stylesheet">
+
+<!-- styleSheet -->
+<link rel="stylesheet" href="style.css">
+    <title>form-section</title>
+</head>
+<body>
+    <section class="top-section">
+        <div class="header">
+            <img class="image" src="images/odin.png" alt="car">
+            <h1>LEGEND</h1>
+        </div>
+    </section>
+    <section class="form">
+        <h2>  This is not an online service!You know you need something<br>like this in your life to help you raelize your deepest dreams.<br>Sign up now to get started.</h2>
+        <p>You know you want to.</p>
+        <form class="form-container" action="#" method="post">
+            <h3>Let's do This!</h3>
+            <div class="container">
+                <section>
+                    <div class="form-row">
+                        <label for="name">FIRST NAME</label>
+                        <input required placeholder="Rafael" type="text" id="name" name="first-name">
+                    </div>
+                    <div class="form-row">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="user-email">
+                    </div>
+                    <div class="form-row">
+                        <label for="password">PASSWORD</label>
+                        <input required type="password" id="password" name="user-password">
+                    </div>
+                </section>
+                <section>
+                    <div class="form-row">
+                        <label for="lname">LAST NAME</label>
+                        <input placeholder="Nadal" required type="text" id="lname" name="last-name">
+                    </div>
+                    <div class="form-row">
+                        <label for="fnumber">PHONE NUMBER</label>
+                        <input type="tel" id="fnumber" name="fnumber">
+                    </div>
+                    <div class="form-row">
+                        <label for="cpassword">CONFRIM PASSWORD</label>
+                        <input required type="password" id="name" name="cpassword">
+                    </div>
+                </section>
+            </div>
+            
+            <section class="btn-section">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </section>
+        </form>
+    </section>
+</body>
+</html>
